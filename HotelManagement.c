@@ -3,14 +3,6 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include"task.h"
-// struct customer {
-//     char cname[50];
-//     char caddress[100];
-//     char cten[11];
-//     char croom[10];
-//     int croomno;
-//     int cage;  
-// };
 int main() {
     struct customer* c;
     FILE* fp;
